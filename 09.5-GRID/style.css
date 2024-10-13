@@ -1,0 +1,53 @@
+main{
+    background-color: orange;
+    padding: 20px;
+}
+header{
+    background-color: aqua;
+    padding: 20px;
+
+}
+aside{
+    background-color: aquamarine;
+    padding: 20px;
+    grid-column: span 3;
+    grid-row: 2/4;
+}
+
+.aside2{
+    background-color: greenyellow;
+    padding: 20px;
+    grid-column: 11/13; 
+    /*empieza en la columna 11 y termina en la 13*/
+
+}
+footer{
+    background-color: bisque;
+    padding: 20px;
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+
+footer > a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+nav > a:hover{
+    display: block;
+    padding-inline: 10px;
+    background-color: azure;
+    color: black;
+}
+
+.container{
+    min-height: 100dvh;
+    /*width: 50%;
+    margin: 100px auto;*/
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}

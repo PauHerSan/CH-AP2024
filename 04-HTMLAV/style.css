@@ -1,0 +1,29 @@
+thead, tfoot{
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+}
+
+/* En este caso elige dentro del tbody los tr que son impares, osea, línea 1 y 3 */
+tbody > tr:nth-child(odd){
+    background-color: rgb(113, 206, 160);
+}
+
+table{
+    border: 2px solid black;
+}
+
+th{
+    border: 2px solid greenyellow;
+}
+
+td{
+    border: 3px solid green;
+}
+
+
+caption{
+    caption-side: top;
+}
+
+/* Este edita el título de la tabla*/
+

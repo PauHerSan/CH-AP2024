@@ -1,0 +1,17 @@
+label{
+    display: block;
+    margin-top: 1cm;
+}
+/*margin-top es el espacio entre las elecciones*/
+
+input#text{
+    background-color: bisque
+}
+
+#text:invalid{
+    background-color: red;
+    border: 2px solid black;
+}
+#text:valid{
+    background-color: aquamarine;
+}

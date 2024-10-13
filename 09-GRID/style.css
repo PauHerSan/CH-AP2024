@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    min-width: 100dvh;
+
+}
+
+img{
+    display: block;
+    height: 100px;
+    width: 100%;
+    object-fit:contain;
+    transition: transform 0.5s ease;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    width: 50%;
+    margin: 100px auto;
+    border: 10px solid sandybrown;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+img:hover{
+    transform: scale(2);
+    object-fit: contain;
+}

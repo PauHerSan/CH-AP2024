@@ -1,0 +1,21 @@
+body{ 
+    background-color:rgb(0, 0, 0);
+    color: azure;
+}
+
+.portadasMangas{
+
+   filter: brightness(0.55);
+   text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+.col-md-6{
+    padding: 1em 1px 10px 10px ;
+}

@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: aquamarine;
+    position:relative;
+    height: 100px;
+    /*left: 150px;
+    right: 150px;
+    bottom: -150px;*/
+    margin-left: 50px;
+}
+
+.item{
+    width: 50 px;
+    aspect-ratio: 4/3;
+    display: inline-block;
+}
+
+.item1{
+    background-color: beige;
+    position: relative;
+    left: 0;
+    right:0;
+    top: 70px;
+
+}
+
+.item2{
+    background-color: antiquewhite;
+    /* desaparece el elemento por completo display: none;*/
+    /* visibility: hidden; no mostrará el elemento pero reservará el área que ocupa y el resto de la maqueta interactuará con éste. */
+}
+
+.item3{
+    background-color: bisque;
+}
